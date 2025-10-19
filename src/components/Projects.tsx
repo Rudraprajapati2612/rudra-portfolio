@@ -39,7 +39,7 @@ const Projects = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            Featured <span className="gradient-primary bg-clip-text text-transparent">Projects</span>
+            Featured <span className="text-primary">Projects</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Showcasing innovative solutions across Web3, blockchain, and full-stack development

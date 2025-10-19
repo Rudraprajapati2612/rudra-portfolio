@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="animate-fade-in">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
               Hi, I'm{" "}
-              <span className="gradient-primary bg-clip-text text-transparent">
+              <span className="text-primary">
                 Rudra Prajapati
               </span>{" "}
               👋
@@ -46,8 +46,7 @@ const Hero = () => {
               Blockchain & Full-Stack Developer
             </p>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Motivated 5th-semester B.Tech student passionate about decentralized technologies, 
-              blockchain architecture, and scalable full-stack systems. Building the future of Web3.
+              Full-Stack and Blockchain Developer passionate about building decentralized systems and scalable web applications. Deeply interested in Solana, DeFi protocols, and Real-World Asset (RWA) tokenization. I enjoy architecting secure smart contracts, optimizing backend performance, and exploring how blockchain can reshape real-world finance.
             </p>
 
             {/* CTA Buttons */}

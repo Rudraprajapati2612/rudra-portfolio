@@ -32,7 +32,7 @@ const Education = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            Education & <span className="gradient-primary bg-clip-text text-transparent">Certifications</span>
+            Education & <span className="text-primary">Certifications</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Academic background and professional achievements
@@ -67,7 +67,7 @@ const Education = () => {
                     <CardContent>
                       <div className="flex items-center justify-between text-sm">
                         <span className="text-muted-foreground">{edu.period}</span>
-                        <span className="font-semibold gradient-primary bg-clip-text text-transparent">
+                        <span className="font-semibold text-primary">
                           {edu.gpa}
                         </span>
                       </div>
