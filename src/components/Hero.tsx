@@ -35,17 +35,17 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <div className="animate-fade-in">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
               Hi, I'm{" "}
               <span className="text-primary">
                 Rudra Prajapati
               </span>{" "}
               👋
             </h1>
-            <p className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-foreground/90">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-4 text-foreground/90">
               Blockchain & Full-Stack Developer
             </p>
-            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+            <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 px-4">
               Full-Stack and Blockchain Developer passionate about building decentralized systems and scalable web applications. Deeply interested in Solana, DeFi protocols, and Real-World Asset (RWA) tokenization. I enjoy architecting secure smart contracts, optimizing backend performance, and exploring how blockchain can reshape real-world finance.
             </p>
 

@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection("home")}
-            className="text-2xl font-bold gradient-primary bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+            className="text-2xl font-bold text-primary hover:opacity-80 transition-opacity"
           >
             RP.
           </button>

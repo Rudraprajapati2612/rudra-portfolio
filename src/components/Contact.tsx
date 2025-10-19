@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            Get In <span className="gradient-primary bg-clip-text text-transparent">Touch</span>
+            Get In <span className="text-primary">Touch</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Let's collaborate on your next Web3 or full-stack project
@@ -50,7 +50,7 @@ const Contact = () => {
 
         <div className="max-w-4xl mx-auto">
           <Card className="glass-card glow-primary animate-scale-in">
-            <CardContent className="p-8">
+            <CardContent className="p-4 sm:p-6 md:p-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                 {contactInfo.map((item, index) => {
                   const Icon = item.icon;
@@ -63,9 +63,9 @@ const Contact = () => {
                       <div className="p-3 rounded-lg bg-gradient-to-r from-primary to-accent group-hover:scale-110 transition-transform">
                         <Icon className="h-6 w-6 text-white" />
                       </div>
-                      <div>
+                      <div className="min-w-0">
                         <p className="text-sm text-muted-foreground">{item.label}</p>
-                        <p className="font-semibold">{item.value}</p>
+                        <p className="font-semibold text-sm sm:text-base break-all">{item.value}</p>
                       </div>
                     </a>
                   );
@@ -74,7 +74,7 @@ const Contact = () => {
 
               <div className="border-t border-border pt-8">
                 <p className="text-center text-muted-foreground mb-4">Connect with me on</p>
-                <div className="flex justify-center gap-4">
+               <div className="flex flex-col sm:flex-row justify-center gap-4">
                   {socialLinks.map((social, index) => {
                     const Icon = social.icon;
                     return (
@@ -83,7 +83,7 @@ const Contact = () => {
                         variant="outline"
                         size="lg"
                         onClick={() => window.open(social.url, "_blank")}
-                        className="group hover:border-primary transition-colors"
+                        className="group hover:border-primary transition-colors w-full sm:w-auto"
                       >
                         <Icon className="h-5 w-5 mr-2 group-hover:text-primary transition-colors" />
                         {social.label}
